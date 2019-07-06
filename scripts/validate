@@ -16,8 +16,8 @@ fi
 echo Running: go generate
 go generate
 
-echo Running: golangci-lint
-golangci-lint run
+# echo Running: golangci-lint
+# golangci-lint run
 
 . ./scripts/version.sh
 
